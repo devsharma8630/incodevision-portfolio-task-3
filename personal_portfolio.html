@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <title>My personala portfolio</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .header{
+        display: flex;
+        background-color:rgb(255, 239, 255);
+        justify-content: space-evenly;
+      }
+      a{
+        color: rgb(9, 92, 79);
+      }
+      
+      
+      img{
+        width: 500px;
+        height: 300px;
+      }
+      .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(206, 206, 199);
+      }
+    
+      form{
+        display: flex;
+        justify-content: space-evenly;
+        background-color:rgb(255, 239, 255);
+      }
+      .subdiv{
+        background-color: rgb(225, 221, 170);
+      }
+      @media (max-width: 768px) {
+            #all {
+                flex-direction: column;
+                gap: 10px;
+            }
+      }
+    </style>
+    <body>
+        <div id="all">
+        <div class="header">
+          <a href="#">Home</a>
+          <a href="#">About</a> 
+          <a href="#">Project</a> 
+          <a href="#">Contact</a> 
+        </div>
+        <div class="main">
+          <div class="subdiv">
+            <h2>Hello i am Dev sharma.</h2><br>
+            <br>
+            <h1>About</h1><br>
+            <p>I Dev sharma from sharanpur.<br>
+            Curently i am pursuing B.TECH in CSE from  Coer university Roorkee.</p><br>
+            
+            <h1>My Projects</h1>
+              <a href="file:///C:/Users/devsh/OneDrive/Desktop/html%20vscode/Landingwebpage.html">1.Landing web page</a><br>
+              <a href="http://localhost:8501/">2.Music Recomndation systum</a><br>
+              <a href="file:///C:/Users/devsh/OneDrive/Desktop/html%20vscode/collegewebsite.html">3.College Website for COER U</a><br>
+              <h1>Contact👇</h1>
+              </div>
+          </div>
+  
+            <form>
+              <label for="name">Name: </label>
+              <input type="text" placeholder="Enter your name"><br>
+              <label for="gmail">Gmail: </label>
+              <input type="gmail" placeholder="Enter your Gmail"><br>
+              <lable for="text">It's your choice: </lable>
+              <input type="text" placeholder="Type here for any regarding"><br>
+              <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
